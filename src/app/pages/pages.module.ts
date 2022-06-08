@@ -11,7 +11,6 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ComponentsModule } from '../components/components.module';
 
 
-
 @NgModule({
   declarations: [
     DashboardComponent,
@@ -31,7 +30,9 @@ import { ComponentsModule } from '../components/components.module';
     FormsModule,
     RouterModule,
     SharedModule,
-    ComponentsModule
+    ComponentsModule,
+
+
   ]
 })
 export class PagesModule { }

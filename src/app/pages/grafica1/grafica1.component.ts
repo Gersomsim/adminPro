@@ -7,6 +7,11 @@ import { Component, OnInit } from '@angular/core';
   ]
 })
 export class Grafica1Component implements OnInit {
+  grafica = {
+    labels: [ 'Download Sales', 'In-Store Sales', 'Mail-Order Sales' ],
+    data: [233, 2453, 786],
+    title: 'Ventas'
+  }
 
   constructor() { }
 
